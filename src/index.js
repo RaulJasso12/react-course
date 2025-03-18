@@ -1,7 +1,9 @@
 import React from "react"; //al importar debemos llamar igual que la libreria
 import ReactDOM from "react-dom/client";
 import { Greeting, UserCard } from "./Greeting"; //para importar un componente
-import Product, {Navbar} from "./Product";
+import Product, { Navbar } from "./Product";
+import {Button} from './Button'
+import { TaskCard } from "./Task";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 //siempre debe de existir un elemento padre que contenga al resto sde elementos
@@ -9,9 +11,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 //llamar a los elementos para mostrarlos en pantalla
 root.render(
   <>
-    <Greeting title = "hola" name = "uno"/>
-    <Greeting title = "hol" name = "uno"/>
-    <Greeting title = "ho" name = "uno"/>
-    <Greeting title = "h" name = "uno"/>
+    <TaskCard ready={false}/>
   </>
 );

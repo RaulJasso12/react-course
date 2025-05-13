@@ -1,16 +1,11 @@
-import React from "react"; //al importar debemos llamar igual que la libreria
-import ReactDOM from "react-dom/client";
-import { Greeting, UserCard } from "./Greeting"; //para importar un componente
-import Product, { Navbar } from "./Product";
-import {Button} from './Button'
-import { TaskCard } from "./Task";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './index.css'; // Puedes usar este archivo para estilos globales si lo necesitas
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-//siempre debe de existir un elemento padre que contenga al resto sde elementos
-
-//llamar a los elementos para mostrarlos en pantalla
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
-    <TaskCard ready={false}/>
-  </>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );

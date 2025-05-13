@@ -1,0 +1,107 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .hero {
+    background: #0077cc;
+    color: white;
+    padding: 6rem 2rem;
+  }
+  
+  .hero .btn {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: white;
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .about, .services, .contact {
+    background: #f9f9f9;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  form input, form textarea {
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background: #0077cc;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .news {
+    padding: 2rem;
+    background: #f0f0f0;
+  }
+  
+  .news ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .news li {
+    margin-bottom: 1.5rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-content {
+    padding: 2rem;
+  }
+  
+  .slide img {
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .slide h3 {
+    margin: 0.5rem 0;
+    color: #0077cc;
+  }
+  
+  .about-site {
+    padding: 2rem;
+    background-color: #fdfdfd;
+    color: #333;
+    max-width: 900px;
+    margin: 2rem auto;
+    line-height: 1.6;
+  }
+  
+  .about-site h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #0077cc;
+  }
+  
